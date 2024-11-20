@@ -1,0 +1,87 @@
+/* body{
+    background-color: red;
+} */
+
+/* #cv-form {
+    display: none;
+
+} */
+
+/* Background and global styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://example.com/your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Form elements styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Buttons styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Headings */
+h1, h3 {
+    color: #007bff;
+}
+
+/* Text center */
+.text-center {
+    text-align: center;
+}
+
+/* Small adjustments */
+.mt-2 {
+    margin-top: 10px;
+}
+
+.mb-2 {
+    margin-bottom: 10px;
+}
+
+.my-2 {
+    margin: 10px 0;
+}
+
+/* Specific elements */
+#cv-form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#weAddButton, #aqAddButton {
+    margin-top: 10px;
+}
